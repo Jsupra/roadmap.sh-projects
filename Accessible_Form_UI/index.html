@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accessible Form UI</title>
+</head>
+<body>
+    <main>
+        <form action="" class="formulaire">
+            <label for="full_name">Full name</label>
+            <input type="text" name="full_name" id="Fname" placeholder="What should We call You ?" required>
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required aria-autocomplete="both">
+            <label for="firtPassword">Enter Password</label>
+            <input type="password" name="firtPassword" id="firtPassword" placeholder="xxxxxxxx" aria-required="true" required>
+            <label for="2ndPassword">Confirm Password</label>
+            <input type="password" name="2ndPassword" id="2ndPassword" placeholder="xxxxxxxx" required>
+            <input type="submit" value="update profile" class="btn">
+        </form>
+        <div class="progress-container">
+            <div class="circular-progress">
+                <span class="progress-value">60%</span>
+            </div>
+            <p class="progress-text">profiles completeness</p>
+            <span class="to-do-list">
+               <p class="to-do 1">Create Account</p>
+               <p class="to-do 2">Update roadmap profile</p>
+               <p class="to-do 3">Setup Public Profile</p>
+               <p class="to-do 4">Complete your First Project</p>
+               <p class="to-do 5"> Invite friends</p>
+            </span>
+           </span>
+        </div>
+    </main>
+</body>
+</html>

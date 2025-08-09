@@ -124,6 +124,9 @@ input{
 
 .to-do{
     margin: 10px;
+    text-decoration: line-through;
 }
 
-roadmap.sh-projects
+.t-5, .t-4{
+    text-decoration: none;
+}
